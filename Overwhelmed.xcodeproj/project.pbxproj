@@ -1,0 +1,888 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0307EED7259A435E0023E3D6 /* OverwhelmedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0307EED6259A435E0023E3D6 /* OverwhelmedApp.swift */; };
+		0307EED9259A435E0023E3D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0307EED8259A435E0023E3D6 /* ContentView.swift */; };
+		0307EEDB259A435E0023E3D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0307EEDA259A435E0023E3D6 /* Assets.xcassets */; };
+		0307EEDE259A435E0023E3D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0307EEDD259A435E0023E3D6 /* Preview Assets.xcassets */; };
+		0307EEE9259A435E0023E3D6 /* OverwhelmedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0307EEE8259A435E0023E3D6 /* OverwhelmedTests.swift */; };
+		0307EEF4259A435E0023E3D6 /* OverwhelmedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0307EEF3259A435E0023E3D6 /* OverwhelmedUITests.swift */; };
+		0307EEF9259A435E0023E3D6 /* Overwhelmed WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0307EEF8259A435E0023E3D6 /* Overwhelmed WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0307EEFE259A435F0023E3D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0307EEFD259A435F0023E3D6 /* Assets.xcassets */; };
+		0307EF05259A435F0023E3D6 /* Overwhelmed WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0307EF04259A435F0023E3D6 /* Overwhelmed WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0307EF0A259A435F0023E3D6 /* OverwhelmedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0307EF09259A435F0023E3D6 /* OverwhelmedApp.swift */; };
+		0307EF0C259A435F0023E3D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0307EF0B259A435F0023E3D6 /* ContentView.swift */; };
+		0307EF0E259A435F0023E3D6 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0307EF0D259A435F0023E3D6 /* NotificationController.swift */; };
+		0307EF10259A435F0023E3D6 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0307EF0F259A435F0023E3D6 /* NotificationView.swift */; };
+		0307EF12259A435F0023E3D6 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0307EF11259A435F0023E3D6 /* ComplicationController.swift */; };
+		0307EF14259A43600023E3D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0307EF13259A43600023E3D6 /* Assets.xcassets */; };
+		0307EF17259A43600023E3D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0307EF16259A43600023E3D6 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0307EEE5259A435E0023E3D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0307EECB259A435D0023E3D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0307EED2259A435E0023E3D6;
+			remoteInfo = Overwhelmed;
+		};
+		0307EEF0259A435E0023E3D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0307EECB259A435D0023E3D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0307EED2259A435E0023E3D6;
+			remoteInfo = Overwhelmed;
+		};
+		0307EEFA259A435E0023E3D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0307EECB259A435D0023E3D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0307EEF7259A435E0023E3D6;
+			remoteInfo = "Overwhelmed WatchKit App";
+		};
+		0307EF06259A435F0023E3D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0307EECB259A435D0023E3D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0307EF03259A435F0023E3D6;
+			remoteInfo = "Overwhelmed WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0307EF1F259A43600023E3D6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0307EF05259A435F0023E3D6 /* Overwhelmed WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0307EF23259A43600023E3D6 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				0307EEF9259A435E0023E3D6 /* Overwhelmed WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0307EED3259A435E0023E3D6 /* Overwhelmed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Overwhelmed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0307EED6259A435E0023E3D6 /* OverwhelmedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverwhelmedApp.swift; sourceTree = "<group>"; };
+		0307EED8259A435E0023E3D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0307EEDA259A435E0023E3D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0307EEDD259A435E0023E3D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0307EEDF259A435E0023E3D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0307EEE4259A435E0023E3D6 /* OverwhelmedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OverwhelmedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0307EEE8259A435E0023E3D6 /* OverwhelmedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverwhelmedTests.swift; sourceTree = "<group>"; };
+		0307EEEA259A435E0023E3D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0307EEEF259A435E0023E3D6 /* OverwhelmedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OverwhelmedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0307EEF3259A435E0023E3D6 /* OverwhelmedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverwhelmedUITests.swift; sourceTree = "<group>"; };
+		0307EEF5259A435E0023E3D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0307EEF8259A435E0023E3D6 /* Overwhelmed WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Overwhelmed WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0307EEFD259A435F0023E3D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0307EEFF259A435F0023E3D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0307EF04259A435F0023E3D6 /* Overwhelmed WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Overwhelmed WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0307EF09259A435F0023E3D6 /* OverwhelmedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverwhelmedApp.swift; sourceTree = "<group>"; };
+		0307EF0B259A435F0023E3D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0307EF0D259A435F0023E3D6 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		0307EF0F259A435F0023E3D6 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		0307EF11259A435F0023E3D6 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		0307EF13259A43600023E3D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0307EF16259A43600023E3D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0307EF18259A43600023E3D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0307EF19259A43600023E3D6 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0307EED0259A435E0023E3D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0307EEE1259A435E0023E3D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0307EEEC259A435E0023E3D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0307EF01259A435F0023E3D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0307EECA259A435D0023E3D6 = {
+			isa = PBXGroup;
+			children = (
+				0307EED5259A435E0023E3D6 /* Overwhelmed */,
+				0307EEE7259A435E0023E3D6 /* OverwhelmedTests */,
+				0307EEF2259A435E0023E3D6 /* OverwhelmedUITests */,
+				0307EEFC259A435E0023E3D6 /* Overwhelmed WatchKit App */,
+				0307EF08259A435F0023E3D6 /* Overwhelmed WatchKit Extension */,
+				0307EED4259A435E0023E3D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0307EED4259A435E0023E3D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0307EED3259A435E0023E3D6 /* Overwhelmed.app */,
+				0307EEE4259A435E0023E3D6 /* OverwhelmedTests.xctest */,
+				0307EEEF259A435E0023E3D6 /* OverwhelmedUITests.xctest */,
+				0307EEF8259A435E0023E3D6 /* Overwhelmed WatchKit App.app */,
+				0307EF04259A435F0023E3D6 /* Overwhelmed WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0307EED5259A435E0023E3D6 /* Overwhelmed */ = {
+			isa = PBXGroup;
+			children = (
+				0307EED6259A435E0023E3D6 /* OverwhelmedApp.swift */,
+				0307EED8259A435E0023E3D6 /* ContentView.swift */,
+				0307EEDA259A435E0023E3D6 /* Assets.xcassets */,
+				0307EEDF259A435E0023E3D6 /* Info.plist */,
+				0307EEDC259A435E0023E3D6 /* Preview Content */,
+			);
+			path = Overwhelmed;
+			sourceTree = "<group>";
+		};
+		0307EEDC259A435E0023E3D6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0307EEDD259A435E0023E3D6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0307EEE7259A435E0023E3D6 /* OverwhelmedTests */ = {
+			isa = PBXGroup;
+			children = (
+				0307EEE8259A435E0023E3D6 /* OverwhelmedTests.swift */,
+				0307EEEA259A435E0023E3D6 /* Info.plist */,
+			);
+			path = OverwhelmedTests;
+			sourceTree = "<group>";
+		};
+		0307EEF2259A435E0023E3D6 /* OverwhelmedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0307EEF3259A435E0023E3D6 /* OverwhelmedUITests.swift */,
+				0307EEF5259A435E0023E3D6 /* Info.plist */,
+			);
+			path = OverwhelmedUITests;
+			sourceTree = "<group>";
+		};
+		0307EEFC259A435E0023E3D6 /* Overwhelmed WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				0307EEFD259A435F0023E3D6 /* Assets.xcassets */,
+				0307EEFF259A435F0023E3D6 /* Info.plist */,
+			);
+			path = "Overwhelmed WatchKit App";
+			sourceTree = "<group>";
+		};
+		0307EF08259A435F0023E3D6 /* Overwhelmed WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0307EF09259A435F0023E3D6 /* OverwhelmedApp.swift */,
+				0307EF0B259A435F0023E3D6 /* ContentView.swift */,
+				0307EF0D259A435F0023E3D6 /* NotificationController.swift */,
+				0307EF0F259A435F0023E3D6 /* NotificationView.swift */,
+				0307EF11259A435F0023E3D6 /* ComplicationController.swift */,
+				0307EF13259A43600023E3D6 /* Assets.xcassets */,
+				0307EF18259A43600023E3D6 /* Info.plist */,
+				0307EF19259A43600023E3D6 /* PushNotificationPayload.apns */,
+				0307EF15259A43600023E3D6 /* Preview Content */,
+			);
+			path = "Overwhelmed WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		0307EF15259A43600023E3D6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0307EF16259A43600023E3D6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0307EED2259A435E0023E3D6 /* Overwhelmed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0307EF24259A43600023E3D6 /* Build configuration list for PBXNativeTarget "Overwhelmed" */;
+			buildPhases = (
+				0307EECF259A435E0023E3D6 /* Sources */,
+				0307EED0259A435E0023E3D6 /* Frameworks */,
+				0307EED1259A435E0023E3D6 /* Resources */,
+				0307EF23259A43600023E3D6 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0307EEFB259A435E0023E3D6 /* PBXTargetDependency */,
+			);
+			name = Overwhelmed;
+			productName = Overwhelmed;
+			productReference = 0307EED3259A435E0023E3D6 /* Overwhelmed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0307EEE3259A435E0023E3D6 /* OverwhelmedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0307EF27259A43600023E3D6 /* Build configuration list for PBXNativeTarget "OverwhelmedTests" */;
+			buildPhases = (
+				0307EEE0259A435E0023E3D6 /* Sources */,
+				0307EEE1259A435E0023E3D6 /* Frameworks */,
+				0307EEE2259A435E0023E3D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0307EEE6259A435E0023E3D6 /* PBXTargetDependency */,
+			);
+			name = OverwhelmedTests;
+			productName = OverwhelmedTests;
+			productReference = 0307EEE4259A435E0023E3D6 /* OverwhelmedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0307EEEE259A435E0023E3D6 /* OverwhelmedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0307EF2A259A43600023E3D6 /* Build configuration list for PBXNativeTarget "OverwhelmedUITests" */;
+			buildPhases = (
+				0307EEEB259A435E0023E3D6 /* Sources */,
+				0307EEEC259A435E0023E3D6 /* Frameworks */,
+				0307EEED259A435E0023E3D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0307EEF1259A435E0023E3D6 /* PBXTargetDependency */,
+			);
+			name = OverwhelmedUITests;
+			productName = OverwhelmedUITests;
+			productReference = 0307EEEF259A435E0023E3D6 /* OverwhelmedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		0307EEF7259A435E0023E3D6 /* Overwhelmed WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0307EF20259A43600023E3D6 /* Build configuration list for PBXNativeTarget "Overwhelmed WatchKit App" */;
+			buildPhases = (
+				0307EEF6259A435E0023E3D6 /* Resources */,
+				0307EF1F259A43600023E3D6 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0307EF07259A435F0023E3D6 /* PBXTargetDependency */,
+			);
+			name = "Overwhelmed WatchKit App";
+			productName = "Overwhelmed WatchKit App";
+			productReference = 0307EEF8259A435E0023E3D6 /* Overwhelmed WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		0307EF03259A435F0023E3D6 /* Overwhelmed WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0307EF1C259A43600023E3D6 /* Build configuration list for PBXNativeTarget "Overwhelmed WatchKit Extension" */;
+			buildPhases = (
+				0307EF00259A435F0023E3D6 /* Sources */,
+				0307EF01259A435F0023E3D6 /* Frameworks */,
+				0307EF02259A435F0023E3D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Overwhelmed WatchKit Extension";
+			productName = "Overwhelmed WatchKit Extension";
+			productReference = 0307EF04259A435F0023E3D6 /* Overwhelmed WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0307EECB259A435D0023E3D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					0307EED2259A435E0023E3D6 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					0307EEE3259A435E0023E3D6 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 0307EED2259A435E0023E3D6;
+					};
+					0307EEEE259A435E0023E3D6 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 0307EED2259A435E0023E3D6;
+					};
+					0307EEF7259A435E0023E3D6 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					0307EF03259A435F0023E3D6 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 0307EECE259A435D0023E3D6 /* Build configuration list for PBXProject "Overwhelmed" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0307EECA259A435D0023E3D6;
+			productRefGroup = 0307EED4259A435E0023E3D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0307EED2259A435E0023E3D6 /* Overwhelmed */,
+				0307EEE3259A435E0023E3D6 /* OverwhelmedTests */,
+				0307EEEE259A435E0023E3D6 /* OverwhelmedUITests */,
+				0307EEF7259A435E0023E3D6 /* Overwhelmed WatchKit App */,
+				0307EF03259A435F0023E3D6 /* Overwhelmed WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0307EED1259A435E0023E3D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0307EEDE259A435E0023E3D6 /* Preview Assets.xcassets in Resources */,
+				0307EEDB259A435E0023E3D6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0307EEE2259A435E0023E3D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0307EEED259A435E0023E3D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0307EEF6259A435E0023E3D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0307EEFE259A435F0023E3D6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0307EF02259A435F0023E3D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0307EF17259A43600023E3D6 /* Preview Assets.xcassets in Resources */,
+				0307EF14259A43600023E3D6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0307EECF259A435E0023E3D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0307EED9259A435E0023E3D6 /* ContentView.swift in Sources */,
+				0307EED7259A435E0023E3D6 /* OverwhelmedApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0307EEE0259A435E0023E3D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0307EEE9259A435E0023E3D6 /* OverwhelmedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0307EEEB259A435E0023E3D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0307EEF4259A435E0023E3D6 /* OverwhelmedUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0307EF00259A435F0023E3D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0307EF0E259A435F0023E3D6 /* NotificationController.swift in Sources */,
+				0307EF0C259A435F0023E3D6 /* ContentView.swift in Sources */,
+				0307EF12259A435F0023E3D6 /* ComplicationController.swift in Sources */,
+				0307EF0A259A435F0023E3D6 /* OverwhelmedApp.swift in Sources */,
+				0307EF10259A435F0023E3D6 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0307EEE6259A435E0023E3D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0307EED2259A435E0023E3D6 /* Overwhelmed */;
+			targetProxy = 0307EEE5259A435E0023E3D6 /* PBXContainerItemProxy */;
+		};
+		0307EEF1259A435E0023E3D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0307EED2259A435E0023E3D6 /* Overwhelmed */;
+			targetProxy = 0307EEF0259A435E0023E3D6 /* PBXContainerItemProxy */;
+		};
+		0307EEFB259A435E0023E3D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0307EEF7259A435E0023E3D6 /* Overwhelmed WatchKit App */;
+			targetProxy = 0307EEFA259A435E0023E3D6 /* PBXContainerItemProxy */;
+		};
+		0307EF07259A435F0023E3D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0307EF03259A435F0023E3D6 /* Overwhelmed WatchKit Extension */;
+			targetProxy = 0307EF06259A435F0023E3D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0307EF1A259A43600023E3D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0307EF1B259A43600023E3D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		0307EF1D259A43600023E3D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Overwhelmed WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 66AU57CLFY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Overwhelmed WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.enscivwy.Overwhelmed.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		0307EF1E259A43600023E3D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Overwhelmed WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 66AU57CLFY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Overwhelmed WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.enscivwy.Overwhelmed.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		0307EF21259A43600023E3D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66AU57CLFY;
+				IBSC_MODULE = Overwhelmed_WatchKit_Extension;
+				INFOPLIST_FILE = "Overwhelmed WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = me.enscivwy.Overwhelmed.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		0307EF22259A43600023E3D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66AU57CLFY;
+				IBSC_MODULE = Overwhelmed_WatchKit_Extension;
+				INFOPLIST_FILE = "Overwhelmed WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = me.enscivwy.Overwhelmed.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		0307EF25259A43600023E3D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Overwhelmed/Preview Content\"";
+				DEVELOPMENT_TEAM = 66AU57CLFY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Overwhelmed/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.enscivwy.Overwhelmed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0307EF26259A43600023E3D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Overwhelmed/Preview Content\"";
+				DEVELOPMENT_TEAM = 66AU57CLFY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Overwhelmed/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.enscivwy.Overwhelmed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0307EF28259A43600023E3D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66AU57CLFY;
+				INFOPLIST_FILE = OverwhelmedTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.enscivwy.OverwhelmedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Overwhelmed.app/Overwhelmed";
+			};
+			name = Debug;
+		};
+		0307EF29259A43600023E3D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66AU57CLFY;
+				INFOPLIST_FILE = OverwhelmedTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.enscivwy.OverwhelmedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Overwhelmed.app/Overwhelmed";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0307EF2B259A43600023E3D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66AU57CLFY;
+				INFOPLIST_FILE = OverwhelmedUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.enscivwy.OverwhelmedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Overwhelmed;
+			};
+			name = Debug;
+		};
+		0307EF2C259A43600023E3D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66AU57CLFY;
+				INFOPLIST_FILE = OverwhelmedUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.enscivwy.OverwhelmedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Overwhelmed;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0307EECE259A435D0023E3D6 /* Build configuration list for PBXProject "Overwhelmed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0307EF1A259A43600023E3D6 /* Debug */,
+				0307EF1B259A43600023E3D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0307EF1C259A43600023E3D6 /* Build configuration list for PBXNativeTarget "Overwhelmed WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0307EF1D259A43600023E3D6 /* Debug */,
+				0307EF1E259A43600023E3D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0307EF20259A43600023E3D6 /* Build configuration list for PBXNativeTarget "Overwhelmed WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0307EF21259A43600023E3D6 /* Debug */,
+				0307EF22259A43600023E3D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0307EF24259A43600023E3D6 /* Build configuration list for PBXNativeTarget "Overwhelmed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0307EF25259A43600023E3D6 /* Debug */,
+				0307EF26259A43600023E3D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0307EF27259A43600023E3D6 /* Build configuration list for PBXNativeTarget "OverwhelmedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0307EF28259A43600023E3D6 /* Debug */,
+				0307EF29259A43600023E3D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0307EF2A259A43600023E3D6 /* Build configuration list for PBXNativeTarget "OverwhelmedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0307EF2B259A43600023E3D6 /* Debug */,
+				0307EF2C259A43600023E3D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0307EECB259A435D0023E3D6 /* Project object */;
+}
