@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct OverwhelmedApp: App {
+    @AppStorage("onboardingCheck") var onboardingCheck:Bool = false
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if !onboardingCheck{
+                MainOnboardingView()
+            }else{
+                HomeView()
+            }
         }
     }
 }

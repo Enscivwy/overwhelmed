@@ -9,8 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
-            .padding()
+        VStack{
+            RectangleView(titleName: "Stress", value: "69%")
+            RectangleView(titleName: "Sleep", value: "69%")
+            RectangleView(titleName: "Energy", value: "69%")
+        }
     }
 }
 
